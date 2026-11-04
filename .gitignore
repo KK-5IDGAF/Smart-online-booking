@@ -1,0 +1,30 @@
+# Backend
+backend/target/
+backend/.mvn/wrapper/maven-wrapper.jar
+*.class
+*.jar
+*.war
+*.log
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+.vscode/
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+
+# Env / secrets
+.env
+*.env
+!*.env.example
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Docker
+mysql-data/
